@@ -1,0 +1,63 @@
+.myCounter{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: 'Montserrat', sans-serif;
+}
+.myCounter .visor{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: max(200px, 45vw);
+    color: rgb(49, 49, 49);
+    text-shadow: 0 3.5px 30px black, 1px 1px 0 grey;
+}
+button{
+    z-index: 1000;
+    width: 33.33333%;
+    height: 100vh;
+    
+    font-size: max(40px, 8vw);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+    transition: 0.5s;
+    opacity: 0.2;
+}
+.plus:hover{
+    opacity: 1;
+    background: rgba(0, 255, 0, 0.397);
+}
+.reset:hover{
+    opacity: 1;
+    background: rgba(209, 209, 209, 0.397);
+}
+.minus:hover{
+    opacity: 1;
+    background: rgba(128, 4, 4, 0.397);
+}
+
+.myCounter .title{
+    position: fixed;
+    bottom: 30px;
+    color: rgb(49, 49, 49);
+    font-size: max(15px, 2.3vw);
+    letter-spacing: 3px;
+}
+
+.myCounter .title span{
+    background: aqua;
+    font-family: 'Megrim', cursive;
+}

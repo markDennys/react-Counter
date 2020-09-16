@@ -1,0 +1,14 @@
+@import url('./Counter.css');
+:root {
+    --first-color: rgb(39, 39, 39);
+    --second-color: white;
+    --third-color: grey;
+    --fourth-color: #4e54c8;
+    --fiveth-color: #8f94fb;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
